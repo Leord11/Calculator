@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container {
+
+    margin-top: 5rem;
+    width: 420px;
+    height: 260px;
+    
+    
+}
+button {
+ 
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    outline:none ;
+    color: #fff;
+    background: linear-gradient(to right, gray, black, steelblue);    
+    font-size: 1.5rem;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+button:hover {
+    background: linear-gradient(250deg, gray, black, steelblue);    
+    transform: scale(0.95);
+}
+
+
+.textbox {
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;    
+    cursor: pointer;
+    color: black;
+    text-align: end;
+    padding: 5px;
+}
+.btn-multiply {
+    padding: 12px;
+}
